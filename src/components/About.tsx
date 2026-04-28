@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { SectionHeader } from "./SectionHeader";
 import { Brain, GraduationCap, Rocket, Users } from "lucide-react";
+import meghanaPhoto from "@/assets/meghana.jpeg";
 
 const stats = [
   { icon: GraduationCap, label: "CGPA", value: "8.67" },
@@ -25,8 +26,24 @@ export function About() {
           transition={{ duration: 0.6 }}
           className="glass rounded-2xl p-6 md:p-8"
         >
-          <div className="mono mb-4 text-xs uppercase tracking-widest text-[var(--neon-cyan)]">
-            $ cat ~/profile.md
+          <div className="mb-6 flex items-center gap-5">
+            <div className="relative shrink-0">
+              <div className="absolute -inset-1 rounded-full bg-gradient-to-tr from-[var(--neon-cyan)] via-[var(--neon-purple)] to-[var(--neon-pink)] opacity-80 blur-[6px]" />
+              <div className="relative h-24 w-24 overflow-hidden rounded-full border-2 border-[var(--neon-purple)]/60 md:h-28 md:w-28">
+                <img
+                  src={meghanaPhoto}
+                  alt="Portrait of Meghana Pappala"
+                  className="h-full w-full object-cover"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div className="mono text-xs uppercase tracking-widest text-[var(--neon-cyan)]">
+              $ cat ~/profile.md
+              <div className="mt-1 text-[10px] text-muted-foreground normal-case tracking-wider">
+                identity · verified ✓
+              </div>
+            </div>
           </div>
           <p className="text-lg leading-relaxed">
             I'm <span className="text-gradient font-semibold">Meghana Pappala</span>, a 3rd-year
