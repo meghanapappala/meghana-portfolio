@@ -84,7 +84,8 @@ export function Hero() {
               View Projects
             </a>
             <a
-              href="/resume.pdf"
+              href="/Pappala_Meghana_Resume.docx"
+              download
               className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-semibold text-muted-foreground hover:text-foreground"
             >
               <Download className="h-4 w-4" />

@@ -73,9 +73,9 @@ export function Contact() {
           viewport={{ once: true }}
           className="space-y-4"
         >
-          <InfoRow icon={Mail} label="email" value="meghanapappala@gmail.com" href="mailto:meghanapappala@gmail.com" />
-          <InfoRow icon={Phone} label="phone" value="+91 · Available on request" />
-          <InfoRow icon={MapPin} label="location" value="Andhra Pradesh, India" />
+          <InfoRow icon={Mail} label="email" value="pappalameghana14@gmail.com" href="mailto:pappalameghana14@gmail.com" />
+          <InfoRow icon={Phone} label="phone" value="+91 93929 60823" href="tel:+919392960823" />
+          <InfoRow icon={MapPin} label="location" value="Parvathipuram, Manyam · Andhra Pradesh, India" />
           <InfoRow
             icon={Github}
             label="github"
