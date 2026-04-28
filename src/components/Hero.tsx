@@ -57,7 +57,7 @@ export function Hero() {
             System online · booted
           </div>
           <h1 className="font-display text-5xl font-bold leading-[1.05] tracking-tight md:text-7xl">
-            <span className="text-gradient">Pappala Meghana</span>
+            <span className="text-gradient">Meghana Pappala</span>
           </h1>
           <p className="mono mt-3 text-sm uppercase tracking-[0.3em] text-muted-foreground">
             AI &amp; ML Engineer · Full Stack Developer
