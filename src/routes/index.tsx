@@ -14,13 +14,13 @@ import { Toaster } from "@/components/ui/sonner";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Pappala Meghana — AI & ML Engineer Portfolio" },
+      { title: "Meghana Pappala — AI & ML Engineer Portfolio" },
       {
         name: "description",
         content:
-          "Futuristic AI OS-style portfolio of Pappala Meghana — 3rd-year B.Tech CSE (AI & ML) student, ML engineer, and full-stack developer.",
+          "Futuristic AI OS-style portfolio of Meghana Pappala — 3rd-year B.Tech CSE (AI & ML) student, ML engineer, and full-stack developer.",
       },
-      { property: "og:title", content: "Pappala Meghana — AI & ML Engineer" },
+      { property: "og:title", content: "Meghana Pappala — AI & ML Engineer" },
       {
         property: "og:description",
         content: "Transforming ideas into intelligent real-world solutions.",

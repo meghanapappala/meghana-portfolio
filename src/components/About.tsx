@@ -29,7 +29,7 @@ export function About() {
             $ cat ~/profile.md
           </div>
           <p className="text-lg leading-relaxed">
-            I'm <span className="text-gradient font-semibold">Pappala Meghana</span>, a 3rd-year
+            I'm <span className="text-gradient font-semibold">Meghana Pappala</span>, a 3rd-year
             B.Tech CSE (AI &amp; ML) student with a CGPA of <b>8.67</b>. I'm driven by a passion for
             intelligent systems — where machine learning, NLP, and generative AI meet real-world
             impact.
